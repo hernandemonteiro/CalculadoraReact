@@ -5,8 +5,8 @@
     flex-wrap: wrap;
     border-radius: 5px;
     overflow: hidden;
-    background-color: orangered;
-    padding: 5%;
+    /* background-color: orangered; */
+    /* padding: 5%; */
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 1fr 48px 48px 48px 48px 48px;
