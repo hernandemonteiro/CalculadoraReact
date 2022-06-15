@@ -1,3 +1,14 @@
+:root {
+    --bg-button: black;
+    --border-button: solid 1px gray;
+}
+
 .button {
-    
+    font-size: 1.4em;
+    background-color: var(--bg-button);
+    border: none;
+    color: white;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
 }

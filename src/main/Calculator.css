@@ -1,7 +1,16 @@
 .Calculator {
+
     height: 320px;
     width: 235px;
+    flex-wrap: wrap;
     border-radius: 5px;
     overflow: hidden;
     background-color: orangered;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 48px 48px 48px 48px 48px;
 }
+
+
+
